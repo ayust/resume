@@ -1,0 +1,240 @@
+# Page settings
+
+baseurl = "https://amberyu.st/"
+languageCode = "en-us"
+title = "Amber Yust"
+googleAnalytics = "UA-85711855-1"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+theme = "hugo-orbit-theme"
+publishdir = "public"
+builddrafts = false
+
+[params]
+
+# Meta
+    description = "amberyu.st"
+    author = "Amber Yust"
+
+# Theme styles
+
+    styles = "styles-4.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Amber Yust"
+        tagline = "Technical Sorceress"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: amber.yust@gmail.com"
+        title = "amber.yust@gmail"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://linkedin.com/in/amberyust"
+        title = "amberyust"
+
+        [[params.contact.list]]
+        class = "googleplus"
+        icon = "fa-google"
+        url = "https://plus.google.com/+AmberYust"
+        title = "amber"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "https://twitter.com/aiiane"
+        title = "aiiane"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/ayust"
+        title = "ayust"
+
+        [[params.contact.list]]
+        class = "stackoverflow"
+        icon = "fa-stack-overflow"
+        url = "https://stackoverflow.com/users/148870/amber"
+        title = "amber"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BSc in Computer Science"
+        college = "Harvey Mudd College"
+        dates = "2010"
+
+    # Languages section
+    [params.languages]
+        enable = false
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "Native"
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Climbing"
+
+# Main body sections
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "About Me"
+        summary = """
+**I navigate the gray areas of technology.**.
+ 
+Computers think in black and white, but our world is rarely quite that simple.  Software
+and hardware inevitably have to deal with the mess that is reality, and that's where I come
+in. I find ways to translate uncertainty and complexity into something more tractible.
+"""
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Privacy Engineering Manager"
+        dates = "July 2016 - Present"
+        company = "Google · San Francisco, CA"
+        details = """
+I manage privacy engineers within Google's Privacy & Security organization in addition to my
+individual technical contributions (see next).
+"""
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer, Privacy"
+        dates = "July 2014 - Present"
+        company = "Google · San Francisco, CA"
+        details = """
+I work with Google engineering, product, UX, legal, and other cross-functional teams to build
+products that respect and protect our users.
+"""
+
+        [[params.jobs.list]]
+        position = "Software Engineer, Site Reliability Engineering"
+        dates = "July 2012 - July 2014"
+        company = "Google · San Francisco, CA"
+        details = """
+[Google SRE](https://landing.google.com/sre/) is responsible for the availability, latency,
+performance, efficiency, change management, monitoring, emergency response, and capacity
+planning of Google products.
+"""
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "June 2010 - July 2012"
+        company = "Yelp · San Francisco, CA"
+        details = """
+I worked on various portions of the Yelp stack including the primary customer-facing web
+application and the lower level shared site infrastructure. I also worked on Yelp's tools
+and release process. Yelp is a top-500 website with [tens of millions of monthly visitors]
+(https://www.yelp.com/factsheet).
+"""
+        [[params.jobs.list]]
+        position = "Contractor"
+        dates = "Jan. 2009 - Sep. 2009"
+        company = "EA Mythic · Fairfax, VA"
+        details = """
+I built user interface components and addon APIs for [*Warhammer Online: Age of Reckoning*]
+(https://en.wikipedia.org/wiki/Warhammer_Online:_Age_of_Reckoning).
+"""
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects & Contributions"
+        intro = ""
+
+        [[params.projects.list]]
+        title = "EVELink"
+        url = "https://github.com/eve-val/evelink"
+        tagline = "Python bindings for the EVE Online 3rd party API *<small>(creator)</small>*"
+
+        [[params.projects.list]]
+        title = "pluss"
+        url = "https://github.com/ayust/pluss"
+        tagline = "An Atom Feed Proxy for Google+ post streams *<small>(creator)</small>*"
+
+        [[params.projects.list]]
+        title = "buildbot"
+        url = "https://github.com/buildbot/buildbot"
+        tagline = "A continuous integration testing framework *<small>(core commiter)</small>*"
+
+        [[params.projects.list]]
+        title = "StackOverflow"
+        url = "https://stackoverflow.com/users/148870/amber"
+        tagline = "I've contributed over 3000 answers *<small>(top 100 user)</small>*"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "Git"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "Distributed Systems"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "60%"
+                
+        [[params.skills.list]]
+        skill = "People Management"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "JavaScript"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "C++"
+        level = "20%"
+
+    # Footer section
+    [params.footer]
+        copyright = "Amber Yust"
