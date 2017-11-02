@@ -129,7 +129,7 @@ individual technical contributions (see next).
 """
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer, Privacy"
+        position = "Staff Privacy Engineer"
         dates = "July 2014 - Present"
         company = "Google · San Francisco, CA"
         details = """
