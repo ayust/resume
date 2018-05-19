@@ -204,7 +204,7 @@ I built user interface components and addon APIs for [*Warhammer Online: Age of 
         level = "80%"
                 
         [[params.skills.list]]
-        skill = "Git"
+        skill = "People Management"
         level = "80%"
                 
         [[params.skills.list]]
@@ -212,11 +212,11 @@ I built user interface components and addon APIs for [*Warhammer Online: Age of 
         level = "80%"
                 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "60%"
+        skill = "Git"
+        level = "70%"
                 
         [[params.skills.list]]
-        skill = "People Management"
+        skill = "HTML5 & CSS"
         level = "60%"
 
         [[params.skills.list]]
