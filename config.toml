@@ -125,7 +125,8 @@ in. I find ways to translate uncertainty and complexity into something more trac
         company = "Google · San Francisco, CA"
         details = """
 I manage privacy engineers within Google's Privacy & Security organization in addition to my
-individual technical contributions (see next).
+individual technical contributions (see next). As of 2020 I manage an organization of ~40
+direct and indirect reports.
 """
 
         [[params.jobs.list]]
