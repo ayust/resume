@@ -130,7 +130,7 @@ direct and indirect reports.
 """
 
         [[params.jobs.list]]
-        position = "Staff Privacy Engineer"
+        position = "Senior Staff Privacy Engineer"
         dates = "July 2014 - Present"
         company = "Google · San Francisco, CA"
         details = """
