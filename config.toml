@@ -48,12 +48,6 @@ builddrafts = false
         title = "amberyust"
 
         [[params.contact.list]]
-        class = "googleplus"
-        icon = "fa-google"
-        url = "https://plus.google.com/+AmberYust"
-        title = "amber"
-
-        [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
         url = "https://twitter.com/aiiane"
