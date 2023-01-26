@@ -112,23 +112,30 @@ in. I find ways to translate uncertainty and complexity into something more trac
         enable = true
         icon = "fa-briefcase"
         title = "Experience"
+        
+        [[params.jobs.list]]
+        position = "Director, Privacy Engineering"
+        dates = "Nov 2022 - Present"
+        company = "Google · Vancouver, BC"
+        details = """
+Leading a privacy-focused engineering organization to systematically support privacy across Google's engineering landscape.
+"""
 
         [[params.jobs.list]]
         position = "Privacy Engineering Manager"
-        dates = "July 2016 - Present"
+        dates = "July 2016 - Nov 2022"
         company = "Google · Vancouver, BC (prev: San Francisco, CA)"
         details = """
-I manage privacy engineers within Google's Privacy & Security organization in addition to my
-individual technical contributions (see next). As of 2021 I manage an organization of ~60
-direct and indirect reports.
+Managed privacy engineers within Google's Privacy & Security organization in addition to my
+individual technical contributions (see next).
 """
 
         [[params.jobs.list]]
         position = "Senior Staff Privacy Engineer"
-        dates = "July 2014 - Present"
+        dates = "July 2014 - Nov 2022"
         company = "Google · Vancouver, BC (prev: San Francisco, CA)"
         details = """
-I work with Google engineering, product, UX, legal, and other cross-functional teams to build
+Worked with Google engineering, product, UX, legal, and other cross-functional teams to build
 products that respect and protect our users.
 """
 
@@ -149,16 +156,14 @@ planning of Google products.
         details = """
 I worked on various portions of the Yelp stack including the primary customer-facing web
 application and the lower level shared site infrastructure. I also worked on Yelp's tools
-and release process. Yelp is a top-500 website with [tens of millions of monthly visitors]
-(https://www.yelp.com/factsheet).
+and release process.
 """
         [[params.jobs.list]]
         position = "Contractor"
         dates = "Jan. 2009 - Sep. 2009"
         company = "EA Mythic · Fairfax, VA"
         details = """
-I built user interface components and addon APIs for [*Warhammer Online: Age of Reckoning*]
-(https://en.wikipedia.org/wiki/Warhammer_Online:_Age_of_Reckoning).
+I built user interface components and addon APIs for *Warhammer Online: Age of Reckoning*.
 """
 
     # Projects section
@@ -192,14 +197,14 @@ I built user interface components and addon APIs for [*Warhammer Online: Age of 
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Skills & Proficiency Highlights"
+
+        [[params.skills.list]]
+        skill = "People Management"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Python"
-        level = "80%"
-                
-        [[params.skills.list]]
-        skill = "People Management"
         level = "80%"
                 
         [[params.skills.list]]
